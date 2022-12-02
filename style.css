@@ -64,3 +64,31 @@ div.password-container{
 .btn-generate:active{
     transform: scale(0.96);
 }
+footer{
+    position: fixed;
+    background-color: black;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    
+}
+
+Footer a{
+    list-style: none;
+    color: white;
+}
+footer a:hover{
+    color:green;
+    cursor: pointer;
+}
+.footer p {
+   color: white;
+}
+.social-network {
+    text-align: none;
+    color : #3b5998;
+    
+}
