@@ -35,8 +35,8 @@ function generatePassword(){
         password += characters.substring(randomNumber,randomNumber+1);
     }
     inputPasswords.value = password;
-    alertCopySucess.innerText = password + "copied!";
-    noPassGenerate.innerText = password + "no password"
+    //alertCopySucess.innerText = password + "copied!";
+    //noPassGenerate.innerText = password + "no password"
 }
 //copy password on clipboard
 function copyMyPassword(){
